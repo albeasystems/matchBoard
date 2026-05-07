@@ -131,7 +131,6 @@ nav {
   transition: transform .25s;
 }
 .screenshot-wrap:hover { transform: translateY(-6px) scale(1.02); }
-.screenshot-wrap:nth-child(2), .screenshot-wrap:nth-child(4) { margin-top: 24px; }
 .screenshot-wrap img {
   width: 160px; height: auto;
   border-radius: 32px;
