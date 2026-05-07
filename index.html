@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MatchBoard — Marcador Deportivo para iPhone</title>
+  <meta name="description" content="Lleva el marcador de tus partidos de Pádel, Bádminton, Voleibol, Futsal y más. Seguimiento de sets, temporizador y historial completo." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="index.html">
+    <div class="icon">🏆</div>
+    <span>MatchBoard</span>
+  </a>
+  <div class="nav-links">
+    <a href="#deportes" class="nav-hide">Deportes</a>
+    <a href="#funciones" class="nav-hide">Funciones</a>
+    <a href="#faq" class="nav-hide">FAQ</a>
+    <a href="https://apps.apple.com" class="btn-nav">Descargar gratis</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">🆕 Disponible en App Store</div>
+  <h1>El marcador para<br><span>9 deportes</span> en tu bolsillo</h1>
+  <p>Pádel, Bádminton, Voleibol, Futsal y mucho más. Controla sets, puntos y temporizadores con una interfaz limpia y rápida.</p>
+  <div class="hero-actions">
+    <a href="https://apps.apple.com" class="btn-appstore">
+      <div class="apple-icon">🍎</div>
+      <div class="btn-appstore-inner">
+        <small>Disponible en</small>
+        <strong>App Store</strong>
+      </div>
+    </a>
+  </div>
+
+  <!-- Screenshots -->
+  <div class="screenshots">
+    <div class="screenshot-wrap">
+      <img src="https://raw.githubusercontent.com/albeasystems/matchBoard/main/images/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-05-06%20at%2009.56.32.png" alt="MatchBoard pantalla inicio" loading="lazy" />
+    </div>
+    <div class="screenshot-wrap">
+      <img src="https://raw.githubusercontent.com/albeasystems/matchBoard/main/images/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-05-06%20at%2009.56.54.png" alt="MatchBoard selección deporte" loading="lazy" />
+    </div>
+    <div class="screenshot-wrap">
+      <img src="https://raw.githubusercontent.com/albeasystems/matchBoard/main/images/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-05-06%20at%2009.57.42.png" alt="MatchBoard marcador en partido" loading="lazy" />
+    </div>
+    <div class="screenshot-wrap">
+      <img src="https://raw.githubusercontent.com/albeasystems/matchBoard/main/images/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-05-06%20at%2009.58.29.png" alt="MatchBoard historial" loading="lazy" />
+    </div>
+    <div class="screenshot-wrap">
+      <img src="https://raw.githubusercontent.com/albeasystems/matchBoard/main/images/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-05-06%20at%2009.58.54.png" alt="MatchBoard ajustes" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat">
+      <div class="stat-num">9</div>
+      <div class="stat-label">Deportes</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">4</div>
+      <div class="stat-label">Categorías</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">∞</div>
+      <div class="stat-label">Historial de partidos</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">Gratis</div>
+      <div class="stat-label">Para siempre</div>
+    </div>
+  </div>
+</div>
+
+<!-- DEPORTES -->
+<section class="section" id="deportes">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-label">Deportes</div>
+      <h2>Un marcador para cada deporte</h2>
+      <p>Reglas oficiales incorporadas. Solo arranca el partido y empieza a contar.</p>
+    </div>
+    <div class="sports-grid">
+      <div class="sport-card">
+        <div class="sport-emoji">🎾</div>
+        <div class="sport-name">Pádel</div>
+        <div class="sport-tag">Raqueta</div>
+      </div>
+      <div class="sport-card">
+        <div class="sport-emoji">🏸</div>
+        <div class="sport-name">Bádminton</div>
+        <div class="sport-tag">Raqueta</div>
+      </div>
+      <div class="sport-card">
+        <div class="sport-emoji">🟡</div>
+        <div class="sport-name">Squash</div>
+        <div class="sport-tag">Raqueta</div>
+      </div>
+      <div class="sport-card">
+        <div class="sport-emoji">🏐</div>
+        <div class="sport-name">Voleibol</div>
+        <div class="sport-tag">Red</div>
+      </div>
+      <div class="sport-card">
+        <div class="sport-emoji">🏐</div>
+        <div class="sport-name">Vóley Playa</div>
+        <div class="sport-tag">Red</div>
+      </div>
+      <div class="sport-card">
+        <div class="sport-emoji">🦵</div>
+        <div class="sport-name">Sepak Takraw</div>
+        <div class="sport-tag">Red</div>
+      </div>
+      <div class="sport-card">
+        <div class="sport-emoji">⚽</div>
+        <div class="sport-name">Futsal</div>
+        <div class="sport-tag">Balón</div>
+      </div>
+      <div class="sport-card">
+        <div class="sport-emoji">🤼</div>
+        <div class="sport-name">Kabaddi</div>
+        <div class="sport-tag">Contacto</div>
+      </div>
+      <div class="sport-card">
+        <div class="sport-emoji">🏃</div>
+        <div class="sport-name">Kho-Kho</div>
+        <div class="sport-tag">Contacto</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FUNCIONES -->
+<section class="section section-alt" id="funciones">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-label">Funciones</div>
+      <h2>Todo lo que necesitas en un partido</h2>
+      <p>Diseñado para árbitros, entrenadores y aficionados que quieren llevar la cuenta sin complicaciones.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon blue">🏅</div>
+        <h3>Sets y puntos automáticos</h3>
+        <p>El motor de cada deporte aplica las reglas oficiales automáticamente: ventajas, cambios de saque y finales de set.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon orange">⏱️</div>
+        <h3>Temporizador integrado</h3>
+        <p>Futsal, Kabaddi y Kho-Kho incluyen un cronómetro de partido con control de períodos y descansos.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon green">📋</div>
+        <h3>Historial completo</h3>
+        <p>Cada partido queda guardado con puntos por set, ganador y estadísticas. Revísalo cuando quieras.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon purple">📱</div>
+        <h3>Modo retrato y paisaje</h3>
+        <p>La interfaz se adapta automáticamente para que puedas ver el marcador desde cualquier orientación del iPhone.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon orange">📤</div>
+        <h3>Comparte el resultado</h3>
+        <p>Genera una tarjeta visual con el resultado final y compártela directamente con el resto del equipo.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon blue">⚙️</div>
+        <h3>Configuración flexible</h3>
+        <p>Ajusta puntos por set, número de sets, nombres de equipos y colores antes de empezar cada partido.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRECIOS -->
+<section class="section" id="precios">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-label">Precio</div>
+      <h2>Gratis para siempre, <br>Premium si quieres más</h2>
+      <p>La app es completamente gratis con publicidad. Elimínala con una única compra.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <div class="pricing-name">Gratis</div>
+        <div class="pricing-price">0 <span>€</span></div>
+        <div class="pricing-desc">Para siempre</div>
+        <ul class="pricing-list">
+          <li>9 deportes completos</li>
+          <li>Historial de partidos</li>
+          <li>Temporizador</li>
+          <li>Compartir resultado</li>
+          <li style="color:#94a3b8;">Con anuncios</li>
+        </ul>
+        <a href="https://apps.apple.com" class="btn-pricing secondary">Descargar</a>
+      </div>
+      <div class="pricing-card featured">
+        <div class="pricing-badge">Recomendado</div>
+        <div class="pricing-name">Premium</div>
+        <div class="pricing-price">2<span>,99 €</span></div>
+        <div class="pricing-desc">Pago único · Para siempre</div>
+        <ul class="pricing-list">
+          <li>Todo lo de Gratis</li>
+          <li>Sin anuncios</li>
+          <li>Soporte prioritario</li>
+          <li>Todas las actualizaciones</li>
+        </ul>
+        <a href="https://apps.apple.com" class="btn-pricing primary">Obtener Premium</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section-alt" id="faq">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-label">FAQ</div>
+      <h2>Preguntas frecuentes</h2>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">¿Funciona sin conexión a internet? <span class="arrow">▼</span></div>
+      <div class="faq-a">Sí, MatchBoard funciona completamente sin conexión. Los partidos se guardan en tu dispositivo y no necesitas internet para ninguna función principal.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">¿Puedo personalizar los nombres de los equipos? <span class="arrow">▼</span></div>
+      <div class="faq-a">Sí. Antes de cada partido puedes configurar el nombre y color de ambos equipos, el número de sets y los puntos necesarios para ganar cada set.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">¿Qué deportes tienen temporizador? <span class="arrow">▼</span></div>
+      <div class="faq-a">Los deportes con tiempo de juego oficial (Futsal, Kabaddi y Kho-Kho) incluyen un temporizador de partido con control de períodos. Los deportes de raqueta y red usan conteo de puntos sin tiempo.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">¿Es posible deshacer un punto? <span class="arrow">▼</span></div>
+      <div class="faq-a">Sí. Puedes deshacer el último punto registrado en cualquier momento durante el partido para corregir errores.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">¿La compra Premium incluye actualizaciones futuras? <span class="arrow">▼</span></div>
+      <div class="faq-a">Sí. El pago único de Premium te da acceso a todas las actualizaciones de la app, incluyendo nuevos deportes y funciones que añadamos en el futuro.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">¿Cómo contacto con soporte? <span class="arrow">▼</span></div>
+      <div class="faq-a">Escríbenos a <a href="mailto:albeasystems@gmail.com">albeasystems@gmail.com</a> y te respondemos en menos de 48 horas.</div>
+    </div>
+
+    <div style="text-align:center; margin-top:40px;">
+      <a href="mailto:albeasystems@gmail.com" class="btn-contact">✉️ Contactar soporte</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <div class="icon">🏆</div>
+        <span>MatchBoard</span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Inicio</a>
+        <a href="privacy.html">Privacidad</a>
+        <a href="terms.html">Términos</a>
+        <a href="mailto:albeasystems@gmail.com">Soporte</a>
+        <a href="https://apps.apple.com">App Store</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Albea Systems · Hecho con ❤️ para deportistas
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
+      const answer = item.querySelector('.faq-a');
+      const isOpen = btn.classList.contains('open');
+      document.querySelectorAll('.faq-q').forEach(b => {
+        b.classList.remove('open');
+        b.closest('.faq-item').querySelector('.faq-a').classList.remove('open');
+      });
+      if (!isOpen) { btn.classList.add('open'); answer.classList.add('open'); }
+    });
+  });
+</script>
+</body>
+</html>
